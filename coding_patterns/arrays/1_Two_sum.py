@@ -1,13 +1,19 @@
-def twoSum(nums, target): 
-    seen = {} # Store -> number : index
-    for i in range(len(nums)):
-        reminder = target - nums[i]
-        if reminder in seen:
-            return seen[reminder], i 
-        seen[nums[i]] = i 
-    return -1, -1 
+from typing import List
 
-print(twoSum([2,7,9,12,25,46,678,235], 19))
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]: 
+        seen = {} # Store -> number : index
+        for i in range(len(nums)):
+            reminder = target - nums[i]
+            if reminder in seen:
+                return seen[reminder], i 
+            seen[nums[i]] = i 
+        return -1, -1 
+
+nums, target = [2,7,9,12,25,46,678,235], 19
+sol = Solution()
+output = sol.twoSum(nums, target)
+print(output)
 
 # Create a dictionary/hashmap to store each element's index
 # For each element, calculate remainder = target - element

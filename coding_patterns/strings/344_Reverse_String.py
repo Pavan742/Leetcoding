@@ -15,3 +15,9 @@ s = ["h", "e", "l", "l", "o"]
 sol = Solution()
 sol.reverseString(s)
 print(s)
+
+# create 2 pointers left and right 
+# while left < right (no need to check the middle one here) 
+# swap both the elements left and right
+# mode left pointer forward and right pointer backword
+# it will be reversed in_place
