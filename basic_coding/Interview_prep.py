@@ -131,12 +131,55 @@ global_str = "Hello World, please welcome pavan"
 
 # 🔥 LIST / ARRAY PROBLEMS (VERY COMMON)
 
-# Find duplicate elements in a list
-# Find missing number in range 1…n
-# Find second largest element
-# Sort list without using sort()
-# Rotate array by k positions 
+# # Find duplicate elements in a list
+# output = []
+# my_set = set()
+# for i in range(len(global_arr)):
+#     if global_arr[i] in my_set:
+#         output.append(global_arr[i])
+#     else:
+#         my_set.add(global_arr[i])
+# print(output)
+
+# # Find missing number in range 1…n
+# arr_inp = [1,2,3,4,6,7,8]
+# n = len(arr_inp) + 1
+# expected_sum = n * (n + 1) // 2
+# actual_sum = sum(arr_inp)
+# output = expected_sum - actual_sum
+# print(output)
+
+# # Find second largest element
+# largest = float("-inf")
+# sec_largest = float("-inf")
+# for i in range(len(global_arr)):
+#     if global_arr[i] > largest:
+#         sec_largest = largest
+#         largest = global_arr[i]
+#     elif largest > global_arr[i] > sec_largest:
+#         sec_largest = global_arr[i]
+# print(largest, sec_largest)
+
+# # Sort list without using sort()
+# n = len(global_arr)
+# for i in range(n):
+#     for j in range(0, n - i - 1):
+#         if global_arr[j] > global_arr[j+1]:
+#             global_arr[j], global_arr[j+1] = global_arr[j+1], global_arr[j]
+# print(global_arr)
+
+# # Rotate array by k positions 
+# k = 62
+# k = k % len(global_arr)
+# removed = global_arr[:k]
+# del global_arr[:k]
+# global_arr.extend(removed)
+# print(global_arr)
+
+
 # Find intersection of two lists
+
+
 # Merge two sorted lists
 # Move all zeros to end
 # Find pairs with given sum

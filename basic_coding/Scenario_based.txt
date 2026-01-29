@@ -1,0 +1,190 @@
+🔥 CLASS & OBJECT BASED CODING QUESTIONS (VERY COMMON)
+1️⃣ Basic Class Design
+
+Question:
+Create a Employee class with:
+attributes: name, salary
+method: get_annual_salary()
+
+Input:
+Employee("Ravi", 50000)
+
+Output:
+600000
+
+2️⃣ Inheritance (CORE QUESTION)
+
+Question:
+Create a base class Vehicle with method start().
+Create a child class Car that overrides start().
+
+Expected behavior:
+
+Vehicle().start() → "Vehicle started"
+Car().start()     → "Car started"
+
+3️⃣ Method Overriding + super()
+
+Question:
+Extend parent method but still call parent logic using super().
+
+Hint:
+Interviewers want to see if you know when to use super().
+
+4️⃣ Abstract Base Class (VERY IMPORTANT)
+
+Question:
+Create an abstract class Payment with method pay(amount)
+Implement CreditCardPayment and UPIPayment.
+
+Input:
+payment = CreditCardPayment()
+payment.pay(1000)
+
+
+Output:
+Paid 1000 using Credit Card
+
+5️⃣ Polymorphism (REAL USE)
+
+Question:
+Create multiple classes with same method name calculate_salary()
+Call them in a loop without checking object type.
+
+Interviewer checks:
+do you rely on isinstance()? (bad)
+or pure polymorphism? (good)
+
+
+🔥 CONSTRUCTOR & OBJECT LIFECYCLE
+6️⃣ __init__ vs __new__
+
+Question:
+Demonstrate object creation using both.
+(They won’t expect deep internals, but usage clarity.)
+
+7️⃣ Class Variable vs Instance Variable
+
+Question:
+Show difference with example:
+shared counter
+per-object value
+
+
+🔥 ENCAPSULATION / DATA HIDING
+8️⃣ Private Variables
+
+Question:
+Create class with private variable and expose via getter/setter.
+
+Check:
+name mangling
+property decorator
+
+9️⃣ @property (VERY COMMON)
+
+Question:
+Create a read-only attribute using @property.
+
+
+🔥 MULTIPLE INHERITANCE (TRICKY BUT ASKED)
+🔟 MRO (Method Resolution Order)
+
+Question:
+Create diamond inheritance and print MRO.
+Interviewers LOVE this.
+
+
+🔥 MAGIC METHODS (PYTHON-SPECIFIC)
+1️⃣1️⃣ Operator Overloading
+
+Question:
+Overload + operator for a class.
+
+1️⃣2️⃣ __str__ vs __repr__
+
+Question:
+Demonstrate difference with example.
+
+1️⃣3️⃣ Make Object Iterable
+
+Question:
+Create a class that can be iterated using for.
+
+(Implement __iter__ and __next__.)
+
+
+🔥 REALISTIC MINI-DESIGN QUESTIONS
+1️⃣4️⃣ Logger Class
+
+Question:
+Design a Logger class:
+singleton
+log levels
+file write
+(They won’t expect perfection, but design thinking.)
+
+1️⃣5️⃣ Bank Account System
+
+Question:
+Design:
+Account (base)
+SavingsAccount
+CurrentAccount
+
+Include:
+withdraw
+deposit
+rules per account type
+
+
+🔥 COMPOSITION (SENIOR SIGNAL)
+1️⃣6️⃣ Composition vs Inheritance
+
+Question:
+Use composition instead of inheritance for:
+Engine inside Car
+Interviewers check design maturity.
+
+
+🔥 EXCEPTION HANDLING IN CLASSES
+1️⃣7️⃣ Custom Exception
+
+Question:
+Create InsufficientBalanceError and use it in class.
+
+
+🔥 PYTHON-REAL WORLD TASKS
+1️⃣8️⃣ Context Manager Class
+
+Question:
+Create a class that opens/closes file using with.
+
+1️⃣9️⃣ Decorator Inside Class
+
+Question:
+Write decorator to log method execution time.
+
+2️⃣0️⃣ Dataclasses
+
+Question:
+Rewrite class using @dataclass.
+They check if you know modern Python.
+
+🧠 WHAT INTERVIEWERS REALLY CHECK
+
+At 3 YOE, they want to see:
+Can you design, not just code
+Do you know why inheritance is bad sometimes
+Can you explain trade-offs
+Are you Pythonic or Java-in-Python
+
+⚠️ HARD TRUTH
+If you cannot comfortably write:
+a base class
+a child class
+override a method
+use super()
+apply @property
+
+👉 you will struggle in mid-level interviews.
