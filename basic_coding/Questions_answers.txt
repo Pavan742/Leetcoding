@@ -1,0 +1,89 @@
+✅ Core Python / Language Fundamentals
+
+These are routinely asked in almost every interview — service + product companies.
+Difference between list and tuple.
+Python memory management (GIL, heap, stack).
+What are decorators and how do you write one?
+Explain exception handling, example with custom exceptions.
+Differences between Python 2 & Python 3.
+Explain shallow vs deep copy.
+Namespaces & scopes (LEGB).
+Generators and yield.
+Lambda, map, filter, list comprehensions.
+Python built-ins frequently used (enumerate, zip).
+
+🧠 Object Oriented Programming (OOP)
+
+Interviewers love OOP; it separates mid vs senior.
+Explain class vs object, examples.
+Inheritance types and method overriding.
+What are abstract classes and interfaces?
+Use cases of @staticmethod and @classmethod.
+What are descriptors? Why use them?
+
+🧰 Data Structures & Built-ins
+
+Used in both Python tests and live coding interviews.
+Python list, dict, set operations & performance.
+How does hashing work in dictionaries?
+Write code to reverse a linked list or use Python DS.
+Implement stack/queue using Python lists/deques.
+
+💻 Coding / Algorithm Problems
+
+Seen in real interviews in India (including Oracle & others).
+Merge Overlapping Intervals.
+Group Anagrams.
+Merge k Sorted Lists.
+Print duplicates, frequency of words/characters.
+Two-sum type problems.
+Permutations/subsets.
+Find longest substring without repeat characters.
+
+🕸️ Web, Backend & Frameworks
+
+Very common for Python dev with 3+ years — especially backend roles.
+Explain Django architecture (MVT).
+Flask vs Django vs FastAPI — differences and use-cases.
+How do you design REST APIs in Python?
+How to handle authentication/authorization (JWT/OAuth).
+What are middleware in Django?
+
+📊 Database / ORM
+
+Most medium & large companies will ask this.
+SQL joins, group by, indexes impact.
+How do you model relations in Django ORM?
+Transactions, rollbacks, ACID basics.
+Difference between raw SQL & ORM queries.
+
+🧪 Testing & Deployment
+
+Frequently asked in senior screens.
+How do you write unit tests in Python? (pytest/unittest).
+What are mock objects? When to use them?
+CI/CD for Python apps (GitHub Actions/Jenkins).
+Dockerizing a Python app.
+
+☁️ Cloud, AWS, DevOps
+
+Real interview experiences in India (Infosys etc.) show this is trending.
+What is AWS Lambda and Python use with it?
+Describe EC2 setup and deployment flow.
+CI/CD, code pipeline basics.
+
+🧠 System Design & Architecture
+
+This separates average from senior.
+Design a URL shortener backend (Python).
+Design chat messaging API.
+How to scale a Python API service.
+
+🧠 Behavioral / HR Questions
+
+Often asked even in technical rounds.
+Introduce yourself & walk through your projects.
+What’s the hardest bug you solved?
+Why Python? Why this company?
+Define your role in your major project.
+How do you handle production issues?
