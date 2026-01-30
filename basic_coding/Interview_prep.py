@@ -176,15 +176,83 @@ global_str = "Hello World, please welcome pavan"
 # global_arr.extend(removed)
 # print(global_arr)
 
+# # Find intersection of two lists
+# arr1 = [1, 2, 3, 4, 5]
+# arr2 = [4, 5, 6, 7]
+# output = []
+# my_set = set(arr1)
+# for i in arr2:
+#     if i in my_set:
+#         output.append(i)
+# print(output)
 
-# Find intersection of two lists
+# # Merge two sorted lists
+# list1 = [1,2,4,6,7,9]
+# list2 = [2,3,5,7,8]
+# output = []
+# left, right = 0, 0
+# while left < len(list1) and right < len(list2):
+#     if list1[left] > list2[right]:
+#         output.append(list2[right])
+#         right += 1
+#     elif list1[left] < list2[right]:
+#         output.append(list1[left])
+#         left += 1
+#     else:
+#         output.append(list1[left])
+#         output.append(list2[right])
+#         right += 1
+#         left += 1
+# output.extend(list1[left:])
+# output.extend(list2[right:])
+# print(output)
 
-
-# Merge two sorted lists
 # Move all zeros to end
-# Find pairs with given sum
-# Find common elements in 3 lists
+# my_inp = [4,0,2,0,1]
+# pos = 0
+# for i in range(len(my_inp)):
+#     if my_inp[i] == 0:
+#         my_inp.pop(i)
+#         my_inp.append(0)
+# print(my_inp) # time complexity is O(n^2)
+# for i in range(len(my_inp)):
+#     if my_inp[i] != 0:
+#         my_inp[pos] = my_inp[i]
+#         pos += 1
+#     print(my_inp)
+# for i in range(pos, len(my_inp)):
+#     my_inp[i] = 0
+# print("my input ",my_inp)
 
+# # Find pairs with given sum
+# arr = [1, 2, 3, 4, 5]
+# target = 6
+# output = []
+# # for i in range(len(arr)):
+# #     for j in range(i + 1, len(arr)):
+# #         arr_sum = arr[i] + arr[j]
+# #         if arr_sum == target:
+# #             output.append((arr[i], arr[j]))
+# # print(output). # bruit force
+# my_set = set()
+# for i in arr:
+#     needed = target - i
+#     if needed in my_set:
+#         output.append((needed, i))
+#     my_set.add(i)
+# print(output)
+
+# # Find common elements in 3 lists
+# arr1 = [1, 2, 3, 4]
+# arr2 = [2, 3, 5]
+# arr3 = [0, 2, 3, 6]
+# output = []
+# my_set1 = set(arr1)
+# my_set2 = set(arr2)
+# for i in arr3:
+#     if i in my_set1 and i in my_set2:
+#         output.append(i)
+# print(output)
 
 
 # 🔥 STRING PROBLEMS (ASKED A LOT)
