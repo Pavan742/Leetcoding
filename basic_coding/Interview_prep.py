@@ -258,6 +258,8 @@ global_str = "Hello World, please welcome pavan"
 # 🔥 STRING PROBLEMS (ASKED A LOT)
 
 # Check if two strings are anagrams
+
+
 # Longest substring without repeating characters
 # First non-repeating character
 # Count words in a file/string
