@@ -87,3 +87,148 @@ What’s the hardest bug you solved?
 Why Python? Why this company?
 Define your role in your major project.
 How do you handle production issues?
+
+
+
+𝟱𝟭 𝗣𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝗧𝗼 𝗠𝗮𝘀𝘁𝗲𝗿 𝗦𝘁𝗿𝗶𝗻𝗴 𝗠𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝘁𝗶𝗼𝗻
+
+1. Valid Anagram 
+2. Longest Common Prefix 
+3. Group Anagrams 
+4. Encode and Decode Strings 
+5. Reverse String 
+6. Valid Palindrome 
+7. Valid Palindrome II 
+8. Merge Strings Alternately 
+9. Valid Parentheses 
+10. Verifying An Alien Dictionary 
+11. Excel Sheet Column Title 
+12. Greatest Common Divisor of Strings 
+13. Roman to Integer 
+14. Add Binary 
+15. Longest Substring Without Repeating Characters 
+16. Longest Repeating Character Replacement 
+17. Permutation In String 
+18. Simplify Path 
+19. Decode String 
+20. Time Based Key Value Store 
+21. Reorganize String 
+22. Longest Happy String 
+23. Generate Parentheses 
+24. Word Search 
+25. Palindrome Partitioning 
+26. Letter Combinations of a Phone Number 
+27. Implement Trie Prefix Tree 
+28. Design Add And Search Words Data Structure 
+29. Extra Characters in a String 
+30. Accounts Merge 
+31. Evaluate Division 
+32. Longest Palindromic Substring 
+33. Palindromic Substrings 
+34. Decode Ways 
+35. Word Break 
+36. Longest Common Subsequence 
+37. Interleaving String 
+38. Edit Distance 
+39. Jump Game VII 
+40. Dota2 Senate 
+41. Partition Labels 
+42. Valid Parenthesis String 
+43. Multiply Strings 
+44. Minimum Window Substring 
+45. Serialize And Deserialize Binary Tree 
+46. Word Break II 
+47. Word Search II 
+48. Word Ladder 
+49. Alien Dictionary 
+50. Distinct Subsequences 
+51. Regular Expression Matching
+Start Solving Here -> https://neetcode.io/practice/problem-list/string?utm_source=li
+
+
+
+Two pointers is an extremely versatile technique for coding interviews.
+
+If you're a total beginner, start with these 13 questions:
+
+1) Reverse String
+→ https://lnkd.in/etkFVake
+
+2) Valid Palindrome
+→ https://lnkd.in/eYdEVCx6
+
+3) Valid Palindrome II
+→ https://lnkd.in/er37unKd
+
+4) Merge Strings Alternately
+→ https://lnkd.in/ekKvmshE
+
+5) Merge Sorted Array
+→ https://lnkd.in/eGKFqKd8
+
+6) Remove Duplicates From Sorted Array
+→ https://lnkd.in/eAri-hmT
+
+7) Two Sum II Input Array Is Sorted
+→ https://lnkd.in/evQVwGt4
+
+8) 3Sum
+→ https://lnkd.in/erYekkjH
+
+9) 4Sum
+→ https://lnkd.in/ewFukXxe
+
+10) Rotate Array
+→ https://lnkd.in/e3hmkVmX
+
+11) Container With Most Water
+→ https://lnkd.in/e2EegKhm
+
+12) Boats to Save People 
+→ https://lnkd.in/edXfsR-G
+
+13) Trapping Rain Water
+→ https://lnkd.in/enj2FryK
+
+
+
+30 DSA Most asked questions
+
+Easy Level (Warm-up)
+
+Reverse a string
+Check palindrome
+Find duplicate number
+Merge two sorted arrays
+Count set bits in a number
+Implement stack & queue
+Traverse a linked list
+Find missing number in array
+Traverse binary tree (DFS)
+Find common elements in arrays
+
+Medium Level (Most Asked)
+
+Kth largest / largest number
+Merge overlapping intervals
+Longest subbtring unique
+Surrounded regions (DFS)
+Find maximum in sliding window
+Two sum / three sum
+Find cycle in linked list
+Serialize & deserialize tree
+Implement trie (prefix tree)
+Binary tree's vertical view
+
+Hard Level (Google L4+)
+
+Minimum window substrng
+Median of two sorted arrays
+K most frequent elements
+Regular expression matching
+All permutations of string
+Word search (backtracking)
+Implement a thread-safe list
+Largest rectangle in histogram
+Find all palindrome subbstrags
+Design an autocomplete system
